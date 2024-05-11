@@ -1,0 +1,17 @@
+
+Cucumber Hooks --
+useful for setup and tearing down scenarios
+
+@Before
+will be executed before each Scenario
+
+@After
+willbe executed after each scenario
+
+@BeforeStep -- before each step of the scenario
+@AfterStep -- after each step of the scenario
+
+https://www.baeldung.com/java-cucumber-hooks
+
+YOU CAN ATTACHED TAGS WITH HOOKS TOO
+   -- e.g. @Before("@Smoke")
