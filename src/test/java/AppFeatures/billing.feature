@@ -9,7 +9,7 @@
       Then it gives the final amount "<finalamount>"
 
 #   Notice that the variables above have been spec'd as strings, it is to avoid
-#  issues with int, floatr or double data types common with some Cucumber versions
+#  issues with mixing int, float or double data types common with some Cucumber versions
 
       Examples:
       | billingamount | taxamount | finalamount|
